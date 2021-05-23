@@ -1,0 +1,51 @@
+{
+    "home": {
+        "header": {
+            "title": "Verbessern Sie Ihre LIVES!",
+            "description": "Machen Sie Ihren Stream schöner, mit <br>ein Design, das zu Ihnen passt!"
+        },
+        "portfolio": "Portfolio",
+        "tutorial": "Streamer-Designs",
+        "design": {
+            "start": "Beginnend mit ",
+            "button": "Details"
+        }
+    },
+    "tutorial": {
+        "side": {
+            "one": "1 Wie installieren",
+            "two": "2 Zeitanzeigen-Nachricht",
+            "three": "3 Anpassen",
+            "four": "4 Wie verwenden Sie Vielfache?"
+        },
+        "one": {
+            "a": "Wenn Sie auf den Link klicken, wird dieses Popup angezeigt; ",
+            "b": "Klicken Sie auf \"Verwenden\", um auf Ihr aktuelles Design anzuwenden.",
+            "c": "Gehen Sie in die Chat-Box und fertig!"
+        },
+        "two": {
+            "a": "Um die Uhrzeit der Nachricht zu ändern, wechseln Sie zur Option \"Nachricht nach ausblenden\" und ändern Sie die Folie. Um die Nachricht immer anzuzeigen, aktivieren Sie \"Immer Nachrichten anzeigen\"."
+        },
+        "three": {
+            "a": "Wenn Sie nach unten scrollen, sehen Sie eine Leiste mit einer Beschriftung mit der Aufschrift \"Custom Field\", klicken Sie darauf und nehmen Sie die gewünschten Änderungen vor."
+        },
+        "four": {
+            "a": "Fügen Sie den anderen Chat-Stil in einem neuen Design hinzu. Danach klicken Sie auf das Link-Symbol und kopieren Sie den Chat. Setzen Sie es in die Szene, dass dieser Stil gehört."
+        }
+    },
+    "faq": {
+        "one": {
+            "title": "Welche Arten von Overlay machen Sie?",
+            "description": "Derzeit mache ich nur Benachrichtigungen und Chatbox, andere Typen, die ich im Moment nicht tue. Um die Bestellung zu sehen, besuchen Sie die folgenden Links:"
+        },
+        "two": {
+            "title": "Welche Plattformen sind kompatibel?",
+            "description": "Ich verwende die <strong>Streamlabs</strong>, um die Widgets zu erstellen, also arbeite mit allen Plataformen, die mit Streamlabs kompatibel sind. <br><br>Stream plafaforms: Twitch, Facebook und Youtube. <br>Softwares: OBS, Streamlabs OBS, XSplit, Twitch Studio."
+        },
+        "three": {
+            "title": "Benutzerdefinierter Stil für Subs oder Mods?",
+            "description": "Ja, ich kann benutzerdefinierte Stil zu Subs und Mods machen. Beispiel:",
+            "caption": "Die SUB-Meldungsanzeige mit rosa Hintergrund, die Mod-Meldungsanzeige mit grünem Hintergrund und einem Schwert- und Schildsymbol."
+        }
+    }
+}

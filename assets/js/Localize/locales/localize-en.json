@@ -1,0 +1,51 @@
+{
+    "home": {
+        "header": {
+            "title": "Improve your LIVES!",
+            "description": "Make your stream more beautiful, with <br>a design that suits you!"
+        },
+        "portfolio": "Portfolio",
+        "tutorial": "Streamer Designs",
+        "design":{
+            "start": "Starting at ",
+            "button": "Details"
+        }
+    },
+    "tutorial":{
+        "side":{
+            "one": "1 How Install",
+            "two": "2 Time show message",
+            "three": "3 To Customize",
+            "four": "4 How use multiples?"
+        },
+        "one": {
+            "a": "When you click on the link, this popup will appear; ",
+            "b": "Click in “use” to apply to your current theme;",
+            "c": "Go to the chat box and done!"
+        },
+        "two": {
+            "a": "To change the time of the message, go to the option \"Hide Message After\" and change the slide. To always show the message, check \"Always Show Messages\"."
+        },
+        "three": {
+            "a": "When scrolling down, you will see a bar,with a label written “Custom Field”, click on it and make the changes you want."
+        },
+        "four": {
+            "a": "Add the other chat style in a new theme. After that click on the link icon and copy the chat. Put it in the scene that that style belongs."
+        }
+    },
+    "faq": {
+        "one": {
+            "title": "What types of overlay do you do?",
+            "description": "Currently, I only do alerts and chatbox, other types I don't do for now. To see ordering, visit the links below:"
+        },
+        "two": {
+            "title": "Which platforms are compatible?",
+            "description": "I use the <strong>Streamlabs</strong> to make the widgets, so work with all plataforms compatible with Streamlabs.<br><br>Stream plafaforms: Twitch, Facebook and Youtube. <br> Softwares: OBS, Streamlabs OBS, XSplit, Twitch Studio."
+        },
+        "three": {
+            "title": "Custom style for subs or mods?",
+            "description": "Yes, i can make custom style to subs and mods. Example:",
+            "caption": "The SUB message show with pink background, the mod message show with green background and a sword and shield icon."
+        }
+    }
+}
