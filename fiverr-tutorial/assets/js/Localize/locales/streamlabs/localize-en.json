@@ -1,0 +1,71 @@
+{
+	"chat":{
+		"one":{
+			"a":"When you click on the link, this popup will appear;",
+			"b":"Click in “use” to apply to your current theme;",
+			"c":"Go to the chat box and done!",
+			"d":"Get the launch link and put in your streaming software."
+		},
+		"two":{
+			"title":"Time show message",
+			"a":"To change the time of the message, go to the option \"Hide Message After\" and change the slide. To always show the message, check \"Always Show Messages\"."
+		},
+		"three":{
+			"title":"To Customize",
+			"a":"When scrolling down, you will see a bar,with a label written \"Custom Field\", click on it and make the changes you want."
+		},
+		"four":{
+			"title":"How use multiple styles at same time?",
+			"a":"Add the other chat style in a new theme. After that click on the link icon and copy the chat. Put it in the scene that that style belongs."
+		}
+	},
+	"alert":{
+		"one":{
+			"title":"How Install",
+			"a":"When you click on the link, this popup will appear;",
+			"b":"Click in “use” to apply to your current theme;",
+			"c":"Go to the Alert Box and done!",
+			"d":"Get the launch link and put in your streaming software."
+		},
+		"two":{
+			"title":"How disable an alert?",
+			"a":"To disable an alert, go to the alert who you want to disable."
+		},
+		"three":{
+			"title":"Basic configurations",
+			"a":{
+				"title":"Alert transition",
+				"body":"<code>Alert Animation > </code><br /><ol><li>In animation type.</li><li>Out animation type.</li></ol>"
+			},
+			"b":{
+				"title":"Sound and volume",
+				"body":"You can change the sound file. Go to:<br /><code>Sound > <em>Upload button</em></code><br />And volume is bellow from the sound file uploader:<br /><code>Sound Volume > <i class=\"fas fa-sliders-h\"></i> <em>Slide control</em></code>"
+			},
+			"c":{
+				"title":"Alert delay",
+				"body":"Change the slide value to grow the delay:<br /><code>Alert Text Delay > <i class=\"fas fa-sliders-h\"></i><em>Slide control</em></code>"
+			}
+		}
+	},
+	"widget":{
+		"a":{
+			"title":"Event List",
+			"body":"Enable Events, Min Bits and Max Events.<br /><code>All Widgets > Event list ></code>"
+		},
+		"goals":{
+			"title":"Goals",
+			"a":{
+				"title":"Start a goal",
+				"body":"<p>To start a new goal. That work for any type of goal.<br /><code>All Widgets &gt; <em><span style=\"text-decoration: underline;\">type</span></em> goal&gt; Manage Goal</code> , click in button <strong class=\"text-info\">End Goal</strong>. Setup the details of the goal.</p> "
+			},
+			"b":{
+				"title":"Change to custom style",
+				"body":"<p>The goal is come using the simple style. To get the custom style, click in <strong class=\"text-info\">My Goal</strong>.<br /></p>",
+				"body2":"<p>To change colors and font size, go to:<br /><code>All Widgets &gt; <em><span style=\"text-decoration: underline;\">type</span></em> goal&gt; Settings &gt; Custom Fields</code></p>"
+			},
+			"c":{
+				"body":"Add the other widget style in a new theme. After that click on the link icon and copy the widget. Put it in the scene that that style belongs.<br />"
+			}
+		}
+	}
+}

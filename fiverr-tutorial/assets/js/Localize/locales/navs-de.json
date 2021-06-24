@@ -1,0 +1,12 @@
+{
+    "nav": {
+      "two": "GALERIE",
+      "three": "TUTORIALS",
+      "four": "EINS BESTELLEN!"
+    },
+    "footer": {
+      "title": "Status:",
+      "type1": "Arbeitet",
+      "type2": "Urlaub"
+    }
+  }

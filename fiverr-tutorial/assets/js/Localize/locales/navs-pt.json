@@ -1,0 +1,12 @@
+{
+    "nav": {
+      "two": "GALERIA",
+      "three": "TUTORIAIS",
+      "four": "ENCOMENDAR UM!"
+    },
+    "footer": {
+      "title": "Status:",
+      "type1": "Trabalhando",
+      "type2": "Férias"
+    }
+  }

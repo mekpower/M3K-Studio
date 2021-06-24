@@ -1,0 +1,15 @@
+{
+  "one": {
+    "title": "Welche Arten von Overlays machst du?",
+    "body": "Alertbox, Chatbox und andere Widgets im Allgemeinen (Ereignisliste, Ziele, das Glas und Credits)"
+  },
+  "two": {
+    "title": "Welche Plattformen werden unterstützt?",
+    "body": "Kompatibel mit beiden <strong>Streamlabs</strong> wie viel <strong>Streamelements</strong><br/>Streaming-Sites: Twitch, Facebook und Youtube.<br/>Software: OBS, OBS Streamlabs, XSplit und Twitch Studio"
+  },
+  "three": {
+    "title": "Benutzerdefinierter Stil für Subs oder Mods?",
+    "body": "Ja , es ist möglich! Und es ist nicht nur auf Subs und Mods beschränkt, sondern funktioniert auch für VIPs, Primes, Gründer und Sender. Beispiel:",
+    "sub": "Sub-Nachricht wird mit rosa Hintergrund angezeigt, MOD-Nachricht wird mit grünem Hintergrund und einem Schwert- und Schildsymbol angezeigt"
+  }
+}

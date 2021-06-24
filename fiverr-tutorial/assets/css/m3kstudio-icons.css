@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'm3kstudio-icons';
+	src: url(../../assets/fonts/m3kstudio-icons.eot?h=401b6b0b6a384021f0a0364475f0494f&ohns95=) format('embedded-opentype'),
+	url(../../assets/fonts/m3kstudio-icons.eot?h=401b6b0b6a384021f0a0364475f0494f&ohns95=) format('embedded-opentype'),
+	url(../../assets/fonts/m3kstudio-icons.ttf?h=401b6b0b6a384021f0a0364475f0494f&ohns95=) format('truetype'),
+	url(../../assets/fonts/m3kstudio-icons.woff?h=401b6b0b6a384021f0a0364475f0494f&ohns95=) format('woff'),
+	url(../../assets/fonts/m3kstudio-icons.svg?h=401b6b0b6a384021f0a0364475f0494f&ohns95=) format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

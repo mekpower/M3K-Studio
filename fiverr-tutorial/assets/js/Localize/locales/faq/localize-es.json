@@ -1,0 +1,15 @@
+{
+  "one": {
+    "title": "Que tipos de sobreposição você faz?",
+    "body": "Alertbox, chatbox e outros widgets em geral(event list, goals, the jar e créditos)"
+  },
+  "two": {
+    "title": "Quais plataformas são compatíveis?",
+    "body": "Compatível tanto com o <strong>Streamlabs</strong> quanto <strong>Streamelements</strong><br/>Sites de streaming: Twitch, Facebook e Youtube.<br/>Softwares: OBS, Streamlabs OBS, XSplit e Twitch Studio"
+  },
+  "three": {
+    "title": "Estilo personalizado para subs ou mods?",
+    "body": "Sim , ¡es posible! Y no solo está restringido a subs y mods, sino que también funciona para vips, primes, fundadores y locutores. Ejemplo:",
+    "sub": "El mensaje secundario se muestra con fondo rosa, el mensaje MOD se muestra con fondo verde y un icono de espada y escudo"
+  }
+}

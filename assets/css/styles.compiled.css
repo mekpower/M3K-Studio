@@ -1,0 +1,292 @@
+* {
+  font-family: "Poppins";
+}
+
+body {
+  background: #1d1d1d;
+  background-image: url(../../assets/img/glow.png);
+  background-size: cover;
+  padding: 1em;
+}
+
+.body-container {
+  padding: 2em;
+  background: rgba(145, 145, 145, 0.5);
+  border: 1px solid #aeaeae;
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+  color: white;
+}
+.body-container button,
+.body-container .translate-button, .body-container select {
+  background-color: rgba(125, 90, 182, 0.48);
+  border: 1px solid rgba(241, 241, 241, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 4px 3px rgba(69, 27, 122, 0.1);
+  border-radius: 14px;
+}
+.body-container button .dropdown-toggle,
+.body-container .translate-button .dropdown-toggle, .body-container select .dropdown-toggle {
+  padding: 0.3em 1em;
+}
+.body-container.darker {
+  margin-top: 1em;
+  background: rgba(70, 70, 70, 0.5);
+}
+.body-container .dropdown-menu {
+  margin-top: 5px;
+  background-color: rgba(52, 58, 64, 0.8);
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+}
+.body-container .dropdown-menu .dropdown-item:hover {
+  border-radius: 5px;
+}
+
+.card-box {
+  position: relative;
+  margin: 20px;
+  background: #232323;
+  border-radius: 20px;
+  z-index: 0;
+  transform-style: preserve-3d;
+  transform: perspective(1000px);
+}
+.card-box:hover .header {
+  opacity: 1;
+}
+.card-box:hover::after {
+  opacity: 1;
+}
+.card-box-md {
+  height: 25em;
+  width: 20em;
+}
+.card-box-sm {
+  height: 10em;
+  width: 10em;
+}
+.card-box-sm:hover {
+  width: 20em;
+}
+.card-box-mn {
+  height: 8em;
+  width: 8em;
+}
+.card-box-mn:hover {
+  height: 10em;
+  width: 15em;
+}
+.card-box .header {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 1;
+  opacity: 0;
+}
+.card-box .header img {
+  height: 5em;
+}
+.card-box .title {
+  transform: translateZ(75px);
+}
+.card-box::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(13, 13, 13, 0.8);
+  background-color: rgba(13, 13, 13, 0.8);
+}
+.card-box .card-name {
+  text-align: center;
+  color: #fff;
+  width: 80px;
+  transform-style: preserve-3d;
+  transition: 0.5s;
+  opacity: 0;
+  z-index: 1;
+}
+.card-box .sm-box {
+  position: absolute;
+  bottom: 0;
+}
+.card-box .card-about {
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  text-shadow: 2px 2px 2px #070707;
+  transition: 0.5s;
+  transform: translateZ(40px);
+}
+.card-box .card-bg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.card-box-mn:hover .lab-box {
+  margin-top: -50px;
+  visibility: visible;
+}
+
+.open-lab {
+  opacity: 0.8;
+  filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25));
+  background: url(../../assets/img/grade.png), rgba(62, 151, 175, 0.6);
+  background-size: cover;
+  border-radius: 24px;
+}
+.open-lab .lab-box {
+  transform-style: preserve-3d;
+  display: block;
+  visibility: hidden;
+  position: relative;
+  z-index: -1;
+  margin-top: -100px;
+  height: 100px;
+  border-radius: 0px 0px 20px 20px;
+  transition: 0.3s;
+  background: url(../../assets/img/grade.png), #1e3d99;
+  background-size: cover;
+}
+.open-lab .lab-box p {
+  margin: 10px;
+  font-size: 1em;
+}
+.open-lab .lab-box .m3kicon {
+  margin: 10px;
+  font-size: 2em;
+}
+
+.profile-card {
+  max-width: 281px;
+  height: 168px;
+  position: relative;
+}
+.profile-card::before {
+  content: "";
+  position: absolute;
+  left: 11.03%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(174, 174, 174, 0.3);
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px 1px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(30px);
+  border-radius: 15px;
+  z-index: -1;
+}
+.profile-card .profile-picture {
+  position: absolute;
+  width: 122px;
+  height: 122px;
+  left: 0%;
+  top: 7.14%;
+  border-radius: 100%;
+  background: #eaeaea;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+}
+.profile-card .profile-picture img {
+  width: 100%;
+  height: 100%;
+}
+.profile-card .body {
+  margin-left: 50.53%;
+  margin-right: 8.54%;
+}
+.profile-card .links {
+  margin-bottom: 0.5em;
+}
+.profile-card .links a {
+  text-decoration: none;
+}
+.profile-card .links a i {
+  font-size: 1.5em;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #c8ced7;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.2s;
+  line-height: 40px;
+  margin: 0 5px;
+  background: rgba(36, 36, 36, 0.1);
+  border: 1px solid rgba(174, 174, 174, 0.1);
+  box-shadow: 0px 0px 5px rgba(36, 36, 36, 0.15);
+  backdrop-filter: blur(30px);
+  color: rgba(237, 237, 237, 0.8);
+}
+.profile-card .links a:hover i {
+  background: rgba(36, 36, 36, 0.3);
+}
+.profile-card p {
+  margin-bottom: 0.5em;
+}
+.profile-card button {
+  transition: 0.2s;
+  background: rgba(36, 36, 36, 0.1);
+  border: 1px solid rgba(174, 174, 174, 0.1);
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px rgba(36, 36, 36, 0.15);
+  backdrop-filter: blur(30px);
+  /* Note: backdrop-filter has minimal browser support */
+  width: 100%;
+  border-radius: 30px;
+}
+.profile-card button:hover {
+  background: rgba(36, 36, 36, 0.3);
+}
+
+footer .social-icon {
+  font-size: 2em;
+}
+footer .social-icon i {
+  margin: 0 0.2em;
+  color: #ededed;
+}
+
+.form-glass input, .form-glass textarea {
+  background: rgba(36, 36, 36, 0.3);
+  border-color: rgba(133, 133, 133, 0.493);
+  border-radius: 20px;
+}
+.form-glass .drop-type button, .form-glass select {
+  border-top-left-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+}
+.form-glass select {
+  padding-right: 0.5em;
+}
+
+.main-title {
+  position: relative;
+  height: 30em;
+  border-radius: 2em;
+}
+
+.main-title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/img/m3kstudio.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -2;
+  filter: blur(2em);
+}

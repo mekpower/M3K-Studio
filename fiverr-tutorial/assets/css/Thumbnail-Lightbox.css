@@ -1,0 +1,25 @@
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+
+.thumbnail {
+  position: relative;
+  display: inline-block;
+}
+
+.thumbnail::before {
+  position: absolute;
+  content: "";
+  font: normal normal normal 20px/1 FontAwesome;
+  right: 2px;
+  padding: 3px;
+  color: #ffecd6;
+  bottom: 0;
+  z-index: 1;
+}
+
+.thumbnail img {
+  border-radius: 0.5em;
+}
+

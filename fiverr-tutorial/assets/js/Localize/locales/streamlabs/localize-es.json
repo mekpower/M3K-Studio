@@ -1,0 +1,71 @@
+{
+    "chat": {
+        "one": {
+            "a": "Cuando hagas clic en el enlace, aparecerá esta ventana emergente;",
+            "b": "Haz clic en \"usar\" para aplicar a tu tema actual;",
+            "c": "¡Ve al cuadro de chat y listo!",
+            "d": "Obtén el enlace de inicio e instala tu software de transmisión. "
+        },
+        "two": {
+            "title": "Mostrar hora mensaje",
+            "a": "Para cambiar la hora del mensaje, vaya a la opción \"Ocultar mensaje después de\" y cambie la diapositiva. Para mostrar siempre el mensaje, marque \"Mostrar siempre mensajes\"."
+        },
+        "three": {
+            "title": "Para personalizar",
+            "a": "Al desplazarse hacia abajo, verá una barra, con una etiqueta escrita \"Campo personalizado\", haga clic en él y realice los cambios que desee."
+        },
+        "four": {
+            "title": " ¿Cómo usar varios estilos al mismo tiempo?",
+            "a": "Agregue el otro estilo de chat en un tema nuevo. Después de eso, haga clic en el icono del enlace y copie el chat. Ponlo en escena a la que pertenece ese estilo."
+        }
+    },
+    "alert": {
+        "one": {
+            "title": "Cómo instalar",
+            "a": "Cuando haga clic en el enlace, aparecerá esta ventana emergente;",
+            "b": "Haga clic en \"usar\" para aplicar a su tema actual;",
+            "c": "¡Vaya al cuadro de alerta y listo!",
+            "d": "Obtenga el enlace de inicio y coloque su software de transmisión."
+        },
+        "two": {
+            "title": "¿Cómo deshabilitar una alerta?",
+            "a": "Para deshabilitar una alerta, vaya a la alerta que desea deshabilitar."
+        },
+        "three": {
+            "title": "Configuraciones básicas",
+            "a": {
+                "title": "Transición de alerta",
+                "body": "<code> Alert Animation> </code> <br /> <ol> <li> En tipo de animación. </li> <li> Fuera de tipo de animación. </li> </ol>"
+            },
+            "b": {
+                "title": "Cuando haga clic en el enlace, aparecerá esta ventana emergente;0",
+                "body": "Cuando haga clic en el enlace, aparecerá esta ventana emergente;1"
+            },
+            "c": {
+                "title": "Cuando haga clic en el enlace, aparecerá esta ventana emergente;2",
+                "body": "Cuando haga clic en el enlace, aparecerá esta ventana emergente;3"
+            }
+        }
+    },
+    "widget": {
+        "a": {
+            "title": "Cuando haga clic en el enlace, aparecerá esta ventana emergente;4",
+            "body": "Cuando haga clic en el enlace, aparecerá esta ventana emergente;5"
+        },
+        "goals": {
+            "title": "Cuando haga clic en el enlace, aparecerá esta ventana emergente;6",
+            "a": {
+                "title": "Cuando haga clic en el enlace, aparecerá esta ventana emergente;7",
+                "body": "Cuando haga clic en el enlace, aparecerá esta ventana emergente;8"
+            },
+            "b": {
+                "title": "Cuando haga clic en el enlace, aparecerá esta ventana emergente;9",
+                "body": "Haga clic en \"usar\" para aplicar a su tema actual;0",
+                "body2": "Haga clic en \"usar\" para aplicar a su tema actual;1"
+            },
+            "c": {
+                "body": "Haga clic en \"usar\" para aplicar a su tema actual;2"
+            }
+        }
+    }
+}

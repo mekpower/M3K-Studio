@@ -1,0 +1,34 @@
+* {
+  outline: none;
+  box-sizing: border-box;
+}
+
+a {
+  color: #ffaa5e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #8d697a;
+}
+
+.thumbnail {
+  position: relative;
+  display: inline-block;
+}
+
+.thumbnail::before {
+  position: absolute;
+  content: "";
+  font: normal normal normal 20px/1 FontAwesome;
+  right: 2px;
+  padding: 3px;
+  color: #ffecd6;
+  bottom: 0;
+  z-index: 1;
+}
+
+.thumbnail img {
+  border-radius: 0.5em;
+}
+

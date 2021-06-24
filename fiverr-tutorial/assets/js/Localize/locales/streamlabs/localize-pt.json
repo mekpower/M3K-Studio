@@ -1,0 +1,71 @@
+{
+    "chat": {
+        "one": {
+            "a": "Ao clicar no link, este pop-up aparecerá;",
+            "b": "Clique em “usar” para aplicar ao seu tema atual;",
+            "c": "Vá para a caixa de bate-papo e pronto!",
+            "d": "Pegue o link de lançamento e coloque em seu software de streaming. "
+        },
+        "two": {
+            "title": "Horário de exibição da mensagem",
+            "a": "Para alterar o horário da mensagem, vá até a opção “Ocultar Mensagem Após” e altere o slide. Para mostrar sempre a mensagem, marque \"Sempre mostrar mensagens\"."
+        },
+        "three": {
+            "title": "Para personalizar",
+            "a": "Ao rolar para baixo, você verá uma barra, com um rótulo escrito \"Campo personalizado\", clique nela e faça as alterações desejadas."
+        },
+        "four": {
+            "title": " Como usar vários estilos ao mesmo tempo?",
+            "a": "Adicione o outro estilo de bate-papo em um novo tema. Depois disso, clique no ícone do link e copie o chat. Coloque-o na cena a que esse estilo pertence."
+        }
+    },
+    "alert": {
+        "one": {
+            "title": "Como instalar",
+            "a": "Ao clicar no link, este pop-up aparecerá;",
+            "b": "Clique em “usar” para aplicar ao seu tema atual;",
+            "c": "Vá para a Caixa de Alerta e pronto!",
+            "d": "Pegue o link de lançamento e coloque seu software de streaming."
+        },
+        "two": {
+            "title": "Como desativar um alerta?",
+            "a": "Para desativar um alerta, vá para o alerta que deseja desativar."
+        },
+        "three": {
+            "title": "Configurações básicas",
+            "a": {
+                "title": "Transição de alerta",
+                "body": "<code> Animação de alerta> </code> <br /> <ol> <li> No tipo de animação. </li> <li> Fora do tipo de animação. </li> </ol>"
+            },
+            "b": {
+                "title": "Ao clicar no link, este pop-up aparecerá;0",
+                "body": "Ao clicar no link, este pop-up aparecerá;1"
+            },
+            "c": {
+                "title": "Ao clicar no link, este pop-up aparecerá;2",
+                "body": "Ao clicar no link, este pop-up aparecerá;3"
+            }
+        }
+    },
+    "widget": {
+        "a": {
+            "title": "Lista de eventos",
+            "body": "Ativar eventos, bits mínimos e eventos máximos. <br /> <code> Todos os widgets> Lista de eventos> </code>"
+        },
+        "goals": {
+            "title": "Metas",
+            "a": {
+                "title": "Iniciar uma meta",
+                "body": "<p> Para iniciar uma nova meta. Isso funciona para qualquer tipo de meta. <br /> <code> Todos os Widgets & gt; <em> <span style = \"text-decoration: underline;\"> tipo </span> </em> objetivo & gt; Gerenciar meta </code>, clique no botão <strong class = \"text-info\"> Finalizar meta </strong>. Configure os detalhes do objetivo. </p>"
+            },
+            "b": {
+                "title": "Mudança para o estilo personalizado",
+                "body": "<p> O objetivo é usar o estilo simples. Para obter o estilo personalizado, clique em <strong class = \"text-info\"> Meu objetivo </strong>. <br /> </p>",
+                "body2": "<p> Para alterar as cores e o tamanho da fonte, vá para: <br /> <code> Todos os Widgets & gt; <em> <span style = \"text-decoration: underline;\"> tipo </span> </em> objetivo & gt; Configurações & gt; Campos personalizados </code> </p>"
+            },
+            "c": {
+                "body": "Adicione o outro estilo de widget em um novo tema. Depois disso, clique no ícone do link e copie o widget. Coloque-o na cena a que esse estilo pertence. <br />"
+            }
+        }
+    }
+}

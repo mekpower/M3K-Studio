@@ -1,0 +1,65 @@
+@import 'colors-themes';
+
+.docs-nav{
+    list-style: none;
+    
+    padding-left: 0;
+    
+    
+    .section-title{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 0;
+        a{
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: $skin-bg-color;
+            padding: 0;
+        }
+        span{
+            background: rgb($gray-color, .5);
+            color: $skin-bg-color;
+            text-align: center;
+            border-radius: .3em;
+            margin-right: .5rem !important;
+            padding: 0.1rem .5rem;
+            i{
+                font-size: 1rem;
+            }
+        }
+    }
+    
+    .doc-item{  
+        position: relative;
+        font-size: 0.875rem;
+        a{
+            color: $skin-color;
+            display: inline-block;
+            position: relative;
+            padding: 0.2rem 1rem;
+            margin-left: .9rem;
+        }
+        & a:before {
+            background-color: rgb($gray-color, .5);
+            content: ' ';
+            display: inline-block;
+            height: inherit;
+            left: 0;
+            margin-top: -0.5rem;
+            position: absolute;
+            width: 3px;
+            height: 100%;
+            border-radius: 1rem;
+        }
+    }
+    a.active{
+        color: $orange-color;
+        &::before{
+            background-color: $orange-color;
+        }
+        span{
+            color: $gray-color;
+            background: $orange-bg-color;
+        }
+    }
+}

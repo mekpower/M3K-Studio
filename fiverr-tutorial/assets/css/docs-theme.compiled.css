@@ -1,0 +1,59 @@
+.docs-nav {
+  list-style: none;
+  padding-left: 0;
+}
+.docs-nav .section-title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 0;
+}
+.docs-nav .section-title a {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #ffd4a3;
+  padding: 0;
+}
+.docs-nav .section-title span {
+  background: rgba(32, 60, 86, 0.5);
+  color: #ffd4a3;
+  text-align: center;
+  border-radius: 0.3em;
+  margin-right: 0.5rem !important;
+  padding: 0.1rem 0.5rem;
+}
+.docs-nav .section-title span i {
+  font-size: 1rem;
+}
+.docs-nav .doc-item {
+  position: relative;
+  font-size: 0.875rem;
+}
+.docs-nav .doc-item a {
+  color: #ffecd6;
+  display: inline-block;
+  position: relative;
+  padding: 0.2rem 1rem;
+  margin-left: 0.9rem;
+}
+.docs-nav .doc-item a:before {
+  background-color: rgba(32, 60, 86, 0.5);
+  content: " ";
+  display: inline-block;
+  height: inherit;
+  left: 0;
+  margin-top: -0.5rem;
+  position: absolute;
+  width: 3px;
+  height: 100%;
+  border-radius: 1rem;
+}
+.docs-nav a.active {
+  color: #ffaa5e;
+}
+.docs-nav a.active::before {
+  background-color: #ffaa5e;
+}
+.docs-nav a.active span {
+  color: #203c56;
+  background: #d08159;
+}

@@ -1,0 +1,15 @@
+{
+  "one": {
+    "title": "What kinds of overlays do you do?",
+    "body": "Alertbox, chatbox and other widgets in general(event list, goals, the jar and credits)"
+  },
+  "two": {
+    "title": "Which platforms are supported?",
+    "body": "Compatible with both <strong>Streamlabs</strong> how much <strong>Streamelements</strong><br/>Streaming sites: Twitch, Facebook and Youtube.<br/>Software: OBS, OBS Streamlabs, XSplit and Twitch Studio"
+  },
+  "three": {
+    "title": "Custom style for subs or mods?",
+    "body": "Yes , it's possible! And it's not just restricted to subs and mods, but it also works for vips, primes, founders, broadcaster. Example:",
+    "sub": "Sub message shows with pink background, MOD message shows with green background and a sword and shield icon"
+  }
+}

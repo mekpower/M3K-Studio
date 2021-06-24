@@ -1,0 +1,10 @@
+@font-face {
+	font-family: 'm3kstudio-icons';
+	src: url(../../assets/fonts/m3kstudio-icons.eot?ohns95=) format('embedded-opentype'),
+	url(../../assets/fonts/m3kstudio-icons.eot?ohns95=) format('embedded-opentype'),
+	url(../../assets/fonts/m3kstudio-icons.ttf?ohns95=) format('truetype'),
+	url(../../assets/fonts/m3kstudio-icons.woff?ohns95=) format('woff'),
+	url(../../assets/fonts/m3kstudio-icons.svg?ohns95=) format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

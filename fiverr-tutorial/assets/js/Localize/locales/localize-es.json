@@ -1,0 +1,51 @@
+{
+    "home": {
+        "header": {
+            "title": "¡Mejora tus VIDAS!",
+            "description": "¡Haz tu transmisión más hermosa, con <br>un diseño que se adapte a ti!"
+        },
+        "portfolio": "cartera",
+        "tutorial": "Diseños de streamer",
+        "design": {
+            "start": "Empezando por ",
+            "button": "Detalles"
+        }
+    },
+    "tutorial": {
+        "side": {
+            "one": "1 Cómo instalar",
+            "two": "2 Mensaje de la exhibición de tiempo",
+            "three": "3 Para personalizar",
+            "four": "4 ¿Cómo usar múltiplos?"
+        },
+        "one": {
+            "a": "Al hacer clic en el enlace, aparecerá esta ventana emergente; ",
+            "b": "Haga clic en \"usar\" para aplicar a su tema actual;",
+            "c": "Ir a la caja de chat y listo!"
+        },
+        "two": {
+            "a": "Para cambiar la hora del mensaje, vaya a la opción \"Ocultar mensaje después\" y cambie la diapositiva. Para mostrar siempre el mensaje, marque \"Mostrar siempre mensajes\"."
+        },
+        "three": {
+            "a": "Al desplazarse hacia abajo, verá una barra, con una etiqueta escrita \"Campo personalizado\", haga clic en ella y realice los cambios que desee."
+        },
+        "four": {
+            "a": "Añade el otro estilo de chat en un nuevo tema. Después de eso, haga clic en el icono del enlace y copie el chat. Ponlo en la escena a la que pertenece ese estilo."
+        }
+    },
+    "faq": {
+        "one": {
+            "title": "¿Qué tipos de superposición haces?",
+            "description": "Actualmente, solo hago alertas y chatbox, otros tipos que no hago por ahora. Para ver el pedido, visite los siguientes enlaces:"
+        },
+        "two": {
+            "title": "¿Qué plataformas son compatibles?",
+            "description": "Utilizo el <strong>Streamlabs</strong> para hacer los widgets, así que trabaja con todos los plataformes compatibles con Streamlabs.<br> <br>Stream plafaformes: Twitch, Facebook y Youtube. <br>Softwares: OBS, Streamlabs OBS, XSplit, Twitch Studio."
+        },
+        "three": {
+            "title": "¿Estilo personalizado para subs o mods?",
+            "description": "Sí, puedo hacer estilo personalizado a subs y mods. ejemplo:",
+            "caption": "El mensaje SUB se muestra con fondo rosa, el mensaje mod se muestra con fondo verde y un icono de espada y escudo."
+        }
+    }
+}

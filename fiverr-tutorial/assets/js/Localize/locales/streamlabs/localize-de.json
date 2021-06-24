@@ -1,0 +1,71 @@
+{
+    "chat": {
+        "one": {
+            "a": "Wenn Sie auf den Link klicken, wird dieses Popup angezeigt;",
+            "b": "Klicken Sie auf \"Verwenden\", um Ihr aktuelles Thema anzuwenden;",
+            "c": "Gehen Sie zum Chat-Fenster und fertig!",
+            "d": "Laden Sie den Startlink herunter und geben Sie Ihre Streaming-Software ein. "
+        },
+        "two": {
+            "title": "Zeitnachricht anzeigen",
+            "a": "Um die Uhrzeit der Nachricht zu ändern, gehen Sie zur Option \"Nachricht ausblenden nach\" und wechseln Sie die Folie. Um die Nachricht immer anzuzeigen, aktivieren Sie \"Nachrichten immer anzeigen\"."
+        },
+        "three": {
+            "title": "Anpassen",
+            "a": "Wenn Sie nach unten scrollen, sehen Sie eine Leiste mit der Beschriftung \"Benutzerdefiniertes Feld\", klicken Sie darauf und nehmen Sie die gewünschten Änderungen vor."
+        },
+        "four": {
+            "title": " Wie verwenden Sie mehrere Stile gleichzeitig?",
+            "a": "Fügen Sie den anderen Chat-Stil in einem neuen Thema hinzu. Klicken Sie anschließend auf das Link-Symbol und kopieren Sie den Chat. Setzen Sie es in die Szene ein, zu der dieser Stil gehört."
+        }
+    },
+    "alert": {
+        "one": {
+            "title": "So installieren",
+            "a": "Wenn Sie auf den Link klicken, wird dieses Popup angezeigt;",
+            "b": "Klicken Sie auf \"Verwenden\", um Ihr aktuelles Thema anzuwenden;",
+            "c": "Gehen Sie zur Benachrichtigungsbox und fertig!",
+            "d": "Laden Sie den Startlink herunter und geben Sie ihn ein Ihre Streaming-Software."
+        },
+        "two": {
+            "title": "Wie deaktivieren Sie eine Warnung?",
+            "a": "Um eine Warnung zu deaktivieren, gehen Sie zu der Warnung, die Sie deaktivieren möchten."
+        },
+        "three": {
+            "title": "Grundkonfigurationen",
+            "a": {
+                "title": "Warnungsübergang",
+                "body": "<code>Animation von Warnungen > </code><br /><ol><li>In-Animationstyp.</li><li>Out-Animationstyp.</li></ol>"
+            },
+            "b": {
+                "title": "Wenn Sie auf den Link klicken, wird dieses Popup angezeigt;0",
+                "body": "Wenn Sie auf den Link klicken, wird dieses Popup angezeigt;1"
+            },
+            "c": {
+                "title": "Wenn Sie auf den Link klicken, wird dieses Popup angezeigt;2",
+                "body": "Wenn Sie auf den Link klicken, wird dieses Popup angezeigt;3"
+            }
+        }
+    },
+    "widget": {
+        "a": {
+            "title": "Wenn Sie auf den Link klicken, wird dieses Popup angezeigt;4",
+            "body": "Wenn Sie auf den Link klicken, wird dieses Popup angezeigt;5"
+        },
+        "goals": {
+            "title": "Wenn Sie auf den Link klicken, wird dieses Popup angezeigt;6",
+            "a": {
+                "title": "Wenn Sie auf den Link klicken, wird dieses Popup angezeigt;7",
+                "body": "Wenn Sie auf den Link klicken, wird dieses Popup angezeigt;8"
+            },
+            "b": {
+                "title": "Wenn Sie auf den Link klicken, wird dieses Popup angezeigt;9",
+                "body": "Klicken Sie auf \"Verwenden\", um Ihr aktuelles Thema anzuwenden;0",
+                "body2": "Klicken Sie auf \"Verwenden\", um Ihr aktuelles Thema anzuwenden;1"
+            },
+            "c": {
+                "body": "Klicken Sie auf \"Verwenden\", um Ihr aktuelles Thema anzuwenden;2"
+            }
+        }
+    }
+}
