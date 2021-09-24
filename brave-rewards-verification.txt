@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: m3kstudio.tk
+Token: 99994ff098726a1872e20262b4d00bba0f7bd9207a0343b795109f1ccbbd36fe
