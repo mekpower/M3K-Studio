@@ -35,6 +35,8 @@ body {
 .app {
   background-color: rgba(13, 43, 69, 0.5);
   border-radius: 15px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   box-shadow: 0px 0px 10px rgba(13, 43, 69, 0.5);
   overflow: hidden;
   max-height: 100%;
@@ -192,7 +194,7 @@ a:hover {
   align-items: center;
   width: 100%;
   justify-content: space-between;
-  background-image: linear-gradient(to right, #544e68, #8d697a, rgba(255, 236, 214, 0), rgba(255, 236, 214, 0.5)), url(../../assets/img/gallery/previews/Sukitran7-preview.png?h=91c28c6e04c373e67041f57eb3ce1b98);
+  background-image: linear-gradient(to right, #544e68, #8d697a, rgba(255, 236, 214, 0), rgba(255, 236, 214, 0.5)), url("../../assets/img/gallery/previews/fluffshivt%20-%20preview.png");
   background-size: cover;
   background-position: left center;
   border-radius: 14px;
@@ -202,6 +204,18 @@ a:hover {
   .content-wrapper-header {
     padding: 20px;
   }
+}
+.content-wrapper-header .desc-fiverr::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(1, 1, 1, 0.1);
+  filter: blur(15px);
 }
 .content-wrapper.overlay {
   pointer-events: none;
@@ -578,7 +592,6 @@ h4.content-section-title {
   margin: 10px;
   display: flex;
   flex-direction: column;
-  width: calc(33.3% - 20px);
   font-size: 16px;
   background-color: rgba(85, 92, 99, 0.2);
   border-radius: 14px;
@@ -593,7 +606,8 @@ h4.content-section-title {
   box-shadow: 0px 0px 10px 2px rgba(13, 43, 69, 0.5);
 }
 .app-card img {
-  max-height: 100%;
+  position: relative;
+  max-height: 13em;
   border-radius: 14px;
 }
 .app-card svg {
@@ -798,4 +812,44 @@ code em {
 
 .p-tab {
   padding-left: 1em;
+}
+
+#gumroad-sec {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gumroad-product {
+  display: flex;
+  flex-direction: row;
+  max-width: 35em;
+  height: 13em;
+  background-color: rgba(13, 43, 69, 0.5);
+  border: 2px solid #0d2b45;
+  border-radius: 1em;
+  color: #ffecd6;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px 2px rgba(13, 43, 69, 0.5);
+}
+.gumroad-product:not(:last-child) {
+  margin-right: 1em;
+}
+.gumroad-product .thumb {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.gumroad-product h5 {
+  height: 70%;
+}
+.gumroad-product .body {
+  width: 100%;
+}
+.gumroad-product .btn {
+  padding: 0.5em 1.5em;
+  padding-left: 1em;
+  clip-path: polygon(0% 0%, 100% 0%, 85% 50%, 100% 100%, 0% 100%);
+  background-color: rgba(13, 43, 69, 0.5);
+  background: #ffaa5e;
+  margin-right: 1em;
 }

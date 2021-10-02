@@ -2,19 +2,7 @@
   window.FontAwesomeConfig = {
     searchPseudoElements: true
   }
-
 $(document).ready(function () {
-    
-    const queryString = window.location.search;
-    const urlParams = new URLSearchParams(queryString);
-    const tabUrl = urlParams.get('tabpane');
-    console.log(tabUrl);
-    if(tabUrl != null){
-         var someTabTriggerEl = document.querySelector('#'+tabUrl)
-        var tab = new bootstrap.Tab(someTabTriggerEl)
-
-        tab.show()
-    }
     $('.dropdown-menu a').on('click', function () {
         $(this).parent().parent().prev().html($(this).html() + '<span class="caret"></span>');
         console.log($(this).attr("value"));
